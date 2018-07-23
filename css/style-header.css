@@ -1,0 +1,165 @@
+/* 
+    Created on : 12/07/2018, 19:37:53
+    Author     : Gabriel
+*/
+.cabecalho{
+    height: 1129px;
+    max-height: 1129px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cabecalho header{
+    background-image: url('../imagens/b1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    max-height: 631px;
+    max-height: 631px;
+}
+.cabecalho .conteudo1{    
+    position: absolute;
+    background-image: url('../imagens/b2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 550px; 
+    height: 100%;
+    max-height: 498px;    
+    width: 100%;    
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.cabecalho .conteudo1 .video{   
+    max-height: 256px;
+    max-width: 400px;
+    z-index: 15;
+    background-image: url('../imagens/img-lat1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    border-radius: 5px;
+    margin-top: 40%;
+    
+  
+}
+.cabecalho .conteudo1 .video .fundo-v{  
+    box-sizing: border-box;    
+    background-image: linear-gradient(to top, #ffb1b4 0%, #ff4b62 100%);
+    width: 100%;
+    margin-top: -25px;
+    z-index: 20;
+    opacity: 0.7; 
+    border-radius: 5px;
+}
+.cabecalho .conteudo1 .video .fundo-v video{   
+    background-image: url('../imagens/play-video.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30% 60%;
+}
+
+.cabecalho .conteudo1 article{   
+    position: relative;
+    z-index: 10;
+    text-align: left; 
+    width: 50%;
+    margin-top: 40%;
+}
+.cabecalho .conteudo1 article h2,p{
+    margin-top:10px;
+}
+.cabecalho .conteudo1 article h2{
+    color: #4c4c51;
+    font-family: "Source Sans Pro";
+    font-size: 2em;
+    font-weight: 400;  
+}
+.cabecalho .conteudo1 article p{
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";    
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.cabecalho .container .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.cabecalho .container .navbar h1{
+    background-image: url('../imagens/logo-p.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 38px;
+    height: 41px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.cabecalho .container .navbar h1 span{
+    visibility: hidden;    
+}
+.cabecalho .container .navbar .navbar-brand li{
+  margin-right: 50px;
+  margin-top: 20px;
+  align-items: center;
+}
+.cabecalho .container .navbar .navbar-brand li a{ 
+    text-decoration: none;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;       
+    }
+.cabecalho .container .navbar .navbar-brand li:last-child{ 
+    background-image: url('../imagens/oval.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.cabecalho .container .navbar .navbar-brand li a span{ 
+   visibility: hidden;
+}
+.cabecalho header .chamada-primary{
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    }    
+    .cabecalho header .chamada-primary h2{    
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 2.7em;
+    font-weight: 400;       
+    }
+    .cabecalho header .chamada-primary p{
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    }
+    .cabecalho header .chamada-primary .button{
+    margin-top: 40px;
+    background-color: #fd6b72;   
+    }
+
+
+
+
+

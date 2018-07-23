@@ -1,0 +1,284 @@
+
+/* 
+    Created on : 16/07/2018, 21:37:25
+    Author     : Gabriel
+*/
+
+     /* 
+    FORMATANDO MAIN CORPO PRINCIPAL DO SITE
+    */
+main .numbers .container{
+    display: flex; 
+    margin-bottom: 70px;
+}
+main .numbers .container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin:100px auto auto auto;     
+}
+main .numbers .container ul li{
+    display: flex;    
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;   
+}
+main .numbers .container ul .dif{
+    border: 1px solid #dbdbdb;
+    width:35px; 
+}
+main .numbers .container ul li span{ 
+    opacity: 0.9;
+    color: #f94d59;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+main .numbers .container ul li span small{ 
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400; 
+    display: block;
+}
+
+/*==================================================================*/
+     /* 
+    FORMATANDO CHAMADA NUMERO 2
+    */
+.chamada-second .container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+chamada-second .container figure{
+    background-image: url('../imagens/img-lat2.png');
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    margin-left: 10px;    
+}
+chamada-second .container figure img{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.chamada-second .container figure figcaption{
+    background-color: #fd6e74;
+    margin-top: -10px;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}     
+.chamada-second .container figure figcaption h3{  
+    margin: 0px;
+    padding: 0px;
+    margin-left: 15px;
+    width: 70%;   
+}
+.chamada-second .container figure figcaption span{
+    background-image: url('../imagens/icon-img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -50px;
+    right: 15px;   
+    max-width: 98px;
+    height: 98px;
+    max-height: 98px;        
+}
+   
+.chamada-second .container figure figcaption small{
+   visibility: hidden;  
+}     
+
+.chamada-second .container ul li{
+    display: flex;
+    align-items: center;
+}
+.chamada-second .container ul li img{
+    width: 69px;
+    height: 69px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.chamada-second .container ul li div h3{
+    opacity: 0.9;
+    color: #fb5c68;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 700;
+}
+.chamada-second .container ul li div p{ 
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/*==================================================================*/
+     /* 
+    FORMATANDO CONTEUDO 2 FORM E LISTAS
+    */
+.conteudo2 .container{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-top: 80px;
+}
+.conteudo2 .container h2{
+    color: #4c4c51;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    font-weight: 400;
+    }
+.conteudo2 .container p{
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+.conteudo2 .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+}
+.conteudo2 .container form input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    border: 2px solid #dbdbdb;
+    border-radius: 30px 30px 0 0;
+    -webkit-border-radius:30px 30px 0 0; 
+    -moz-border-radius:30px 30px 0 0; 
+    padding: 10px;
+    width: 100%;
+    padding-left: 10px;
+    border-bottom:none;
+}
+ ::-webkit-input-placeholder{
+    padding-left: 20px;
+}
+.conteudo2 .container form select option{ 
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    width: 50px;
+    color: white;
+}
+
+.conteudo2 .container form button{    
+    border-radius: 0px 0px 30px 30px;
+    -webkit-border-radius:0 0 30px 30px; 
+    -moz-border-radius:0 0 30px 30px;    
+    width: 100%; 
+    padding-bottom:20px;
+    padding-top:20px;
+    line-height: 1px;
+    background-color: #fd6e74;
+    border-top: none;
+}
+
+
+/*==================================================================*/
+     /* 
+    FORMATANDO BARRA FINAL DE INFORMAÇÕES LISTAS E FORM
+    */
+main .informer .container{
+    display: flex;
+    justify-content: space-around;   
+    width: 90%;
+    align-items: center;
+    
+}
+main .informer .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 30%;
+    margin-right: 20px;
+    max-width: 339px;
+}
+main .informer .container form input{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+main .informer .container ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: -10%;    
+    border-radius: 2px;  
+}
+main .informer .container ul li{   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;    
+}
+main .informer .container ul li span{
+    display: block;
+    white-space: nowrap;
+}
+main .informer .container ul li a{
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*==================================================================*/
+     /* 
+    FORMATANDO FOOTER RODAPÉ
+    */
+footer .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+    border-top:2px solid #e8e8e8;
+    margin-top: 40px;    
+}
+footer .container ul{
+    display: flex;    
+}
+footer .container ul li{
+    margin-right: 20px;
+}
+footer .container ul li a{ 
+    opacity: 0.9;
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer .container h2{
+    background-image: url('../imagens/logo-fim.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 113px;
+    height: 35px;
+}
+footer .container h2 span{
+   visibility: hidden;
+}
