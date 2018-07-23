@@ -36,7 +36,8 @@
 
 .cabecalho .conteudo1 .video{   
     max-height: 256px;
-    max-width: 400px;
+    width: 100%;
+    max-width: 300px;
     z-index: 15;
     background-image: url('../imagens/img-lat1.png');
     background-repeat: no-repeat;
