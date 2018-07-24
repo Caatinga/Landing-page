@@ -233,6 +233,9 @@ main .informer .container ul li{
     flex-direction: column;
     margin-right: 50px;    
 }
+main .informer .container ul li:last-child{            
+         margin-top: -55px;       
+     }
 main .informer .container ul li span{
     display: block;
     white-space: nowrap;

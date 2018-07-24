@@ -39,7 +39,7 @@
     */
     .cabecalho header .chamada-primary{
         width: 90%;
-        margin: 0 auto;
+        margin: 10% auto 40%;
         box-sizing: border-box;
         padding: 5%;
     }
@@ -69,12 +69,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;        
+        align-items: center;
+        height: 35%;         
     }
     .cabecalho .conteudo1 article{
-        margin-left: -15px;       
+              
         width: 100%;       
         margin: 30px auto auto auto;
+        border: 1px solid red;
     }   
    
     .cabecalho .conteudo1 article h2{
@@ -84,7 +86,9 @@
     }
     .cabecalho .conteudo1 article p{
         font-size: 0.875em;
-        width: 100%;        
+        width: 100%;  
+        margin-bottom: -20%; 
+
     }
     /* 
     FORMATANDO VIDEO DO CONTEUDO 1
@@ -93,7 +97,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width:100%;        
+        width:70%;        
         box-sizing: border-box;
         margin: 0 auto;        
     }
@@ -101,10 +105,12 @@
     FORMATANDO LISTA DE BENEFICIOS
     */
     main .numbers .container ul{
+        margin: -15% auto -15% auto;
        display: flex;
        flex-direction: column;
        justify-content: center;
-       align-items: center;           
+       align-items: center; 
+       z-index: 15;          
     }
     main .numbers .container ul li span{
       font-size: 1.5em;
@@ -170,10 +176,13 @@
          margin: 0 auto;
          align-items: center;         
      }
-     main .informer .container ul li{
+     main .informer .container ul li{            
          margin-right: 5px;
          margin-left: 10px;
          align-items: baseline;         
+     }
+     main .informer .container ul li:last-child{            
+         margin-top: -90px;       
      }
      main .informer .container ul li div a h3{
          font-size: 0.900em;
