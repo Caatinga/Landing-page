@@ -1,1 +1,1 @@
-# land-page
+# Landing-Page Desenvolvida como pratica de desenvolvimento usando apenas HTML5 e CSS3, copia fiel necessitabdo apenas algumas correções, como ex: menu mobile, desenvolvimento feito para aperfeiçoamenteo profissional colando a prova skills adquirindas com cursos recentes.
